@@ -116,13 +116,10 @@ main{
 .card img{
     margin-right: 10px;
     width: 150px;
-    height: 150px;
+    height: 200px;
     border-radius: 15px 0 0 15px;
 }
-.dinosaures image{
-    width: 40% ;
-    height: 40%;
-}
+
 .paleoart{
     display: flex;
     flex-direction: column;
