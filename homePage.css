@@ -127,7 +127,6 @@ main{
     height: 50px;
     border-radius: 25px;
     position: relative;
-    height: 0;
     overflow: hidden;
     padding-bottom: 26.25%;
 }
@@ -237,6 +236,12 @@ label, #toggle
         justify-content: center;  
         align-items: center;
        
+    }
+    #paleoart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
     }
     .dinosaures h1{
         text-align: center;
