@@ -67,11 +67,7 @@ main{
     margin: 40px;
    
 }
-.video{
-    width: 100%;
-    height: 50px;
-    border-radius: 25px;
-}
+
 .dinosaures h1{
     width: 100%;
 }
@@ -120,21 +116,23 @@ main{
     border-radius: 15px 0 0 15px;
 }
 
-.paleoart{
+#paleoart{
     display: flex;
     flex-direction: column;
     margin: 20px;
 }
 
-
-.video-responsive {
+.video-responsive{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
     position: relative;
-    width: 100%; /* La vidéo occupe toute la largeur du conteneur */
-    padding-bottom: 26.25%; /* Rapport d'aspect 16:9 */
-    height: 0; /* Nécessaire pour maintenir le ratio */
+    height: 0;
     overflow: hidden;
-   }
-   .video-responsive iframe {
+    padding-bottom: 26.25%;
+}
+
+.video-responsive iframe {
     left:0;
     top:0;
     height:100%;
